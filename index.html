@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    
+    <title>Codewarrior Card</title>
+    <meta name="description" content="A profile card generator for Codewars">
+    
+    
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- font-family: 'Gothic A1', sans-serif; -->
+   <link href="https://fonts.googleapis.com/css?family=Gothic+A1" rel="stylesheet">
+  </head>
+
+  <header>
+		<a href="index.html">Codewarrior Card</a>
+		<a href="https://github.com/andersonjoseph/Codewarrior-Card" id="github_link">☆ Me on GitHub</a>
+  </header>
+
+  <body>
+
+    <div id="page1" class="page"> <!--      PAGE 1 BEGIN-->
+      
+      <img src="img/banner.png" id="banner">
+      
+      <input type="text" id="inputuser" placeholder="Your codewars username">
+      
+      <p id="error_msg" style="text-align: center; color: white; display: none"></p>
+      
+      <button class="nextbtn">Next!</button>
+      
+      <div class="loader"></div>
+      
+    </div>
+    
+
+    <div id="page2" class="page"> <!--      PAGE 2 BEGIN-->
+    	<h1>Pick a style</h1>
+      
+      <div id="styles_container">
+        
+        <div id="vertical" class="style"></div>
+        <div id="horizontal" class="style"></div>
+        
+      </div>
+      
+      <button class="nextbtn">Next!</button>
+      
+    </div>  
+    
+    <div id="page3" class="page"> <!--      PAGE 3 BEGIN-->
+
+      <div id="cardV"></div> <!--      VERTICAL CARD-->
+     
+      <div id="cardH"></div> <!--      Horizontal CARD-->        
+
+    </div>
+
+  </body>
+
+  <footer>
+
+      <p>Made with ♥, Vanilla Javascript and <a href="https://www.codewars.com/">Codewars</a> API by <a href="https://github.com/andersonjoseph">Anderson Joseph</a></p>
+      <a href="mailto:andersonjoseph@mailfence.com">andersonjoseph@mailfence.com</a>
+    
+    <script src="js/script.js"></script>
+    
+  </footer>
+  
+
+</html>
