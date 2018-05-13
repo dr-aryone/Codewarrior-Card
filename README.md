@@ -3,11 +3,7 @@ A card profile generator for [Codewars](https://github.com/codewars) written in 
 
 ### Examples
 
-![image](img/cap.png)
-
-![image](img/cap2.png)
-
-![image](img/cap3.png)
+![image](exmp.png)
 
 ### Todo
 * Exports cards as image
